@@ -1,0 +1,819 @@
+{
+  "questionUuid": "d447ef10-ff42-4642-9b6d-77aca5e795b6",
+  "answerBody": {
+    "stepByStep": {
+      "steps": [
+        {
+          "id": "step-jSSrhh1DYwwMbj7McrO-V",
+          "blocks": [
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎Question‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎based‏‏‎‏‏‎‏‏‎ ‎‎‎on‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                        },
+                        {
+                          "type": "text",
+                          "marks": [{ "type": "bold" }],
+                          "text": "Friction."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "marks": [{ "type": "bold" }],
+                          "text": "Given:‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Information‏‏‎‏‏‎‏‏‎ ‎‎‎about‏‏‎‏‏‎‏‏‎ ‎‎‎a‏‏‎‏‏‎‏‏‎ ‎‎‎cart‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎given."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "marks": [{ "type": "bold" }],
+                          "text": "Solution:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "To‏‏‎‏‏‎‏‏‎ ‎‎‎find‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎coefficient‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎friction‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                        },
+                        {
+                          "type": "inlineMath",
+                          "attrs": { "mathType": "asciimath" },
+                          "content": [{ "type": "text", "text": "(μ)" }]
+                        },
+                        {
+                          "type": "text",
+                          "text": "‏‏‎‏‏‎‏‏‎ ‎‎‎between‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎cart‏‏‎‏‏‎‏‏‎ ‎‎‎and‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎floor,‏‏‎‏‏‎‏‏‎ ‎‎‎we‏‏‎‏‏‎‏‏‎ ‎‎‎can‏‏‎‏‏‎‏‏‎ ‎‎‎follow‏‏‎‏‏‎‏‏‎ ‎‎‎these‏‏‎‏‏‎‏‏‎ ‎‎‎steps:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "heading",
+                      "attrs": { "textAlign": "left", "level": 3 },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Step‏‏‎‏‏‎‏‏‎ ‎‎‎1:‏‏‎‏‏‎‏‏‎ ‎‎‎Analyze‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎forces‏‏‎‏‏‎‏‏‎ ‎‎‎involved"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "bulletList",
+                      "content": [
+                        {
+                          "type": "listItem",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": { "textAlign": "left" },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎cart‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎moving‏‏‎‏‏‎‏‏‎ ‎‎‎at‏‏‎‏‏‎‏‏‎ ‎‎‎a‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                                },
+                                {
+                                  "type": "text",
+                                  "marks": [{ "type": "bold" }],
+                                  "text": "constant‏‏‎‏‏‎‏‏‎ ‎‎‎velocity"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": ",‏‏‎‏‏‎‏‏‎ ‎‎‎so‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎net‏‏‎‏‏‎‏‏‎ ‎‎‎force‏‏‎‏‏‎‏‏‎ ‎‎‎in‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎horizontal‏‏‎‏‏‎‏‏‎ ‎‎‎direction‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎zero‏‏‎‏‏‎‏‏‎ ‎‎‎(Newton's‏‏‎‏‏‎‏‏‎ ‎‎‎first‏‏‎‏‏‎‏‏‎ ‎‎‎law)."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": { "textAlign": "left" },
+                              "content": [
+                                { "type": "text", "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎" },
+                                {
+                                  "type": "text",
+                                  "marks": [{ "type": "bold" }],
+                                  "text": "force‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎friction"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎given‏‏‎‏‏‎‏‏‎ ‎‎‎as‏‏‎‏‏‎‏‏‎ ‎‎‎69‏‏‎‏‏‎‏‏‎ ‎‎‎N."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": { "textAlign": "left" },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎cart‏‏‎‏‏‎‏‏‎ ‎‎‎has‏‏‎‏‏‎‏‏‎ ‎‎‎a‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                                },
+                                {
+                                  "type": "text",
+                                  "marks": [{ "type": "bold" }],
+                                  "text": "mass"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎48.0‏‏‎‏‏‎‏‏‎ ‎‎‎kg,‏‏‎‏‏‎‏‏‎ ‎‎‎which‏‏‎‏‏‎‏‏‎ ‎‎‎means‏‏‎‏‏‎‏‏‎ ‎‎‎its‏‏‎‏‏‎‏‏‎ ‎‎‎weight‏‏‎‏‏‎‏‏‎ ‎‎‎W‏‏‎‏‏‎‏‏‎ ‎‎‎is:"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "peXKMKbqAxCMFYntRTpNK"
+            },
+            {
+              "type": "EQUATION_RENDERER",
+              "block": {
+                "lines": [
+                  {
+                    "left": "W",
+                    "right": "m⋅g=48.0kg⋅9.8m‏‏‎‏‏‎‏‏‎ ‎‎‎\\/s^2",
+                    "operator": "="
+                  },
+                  { "left": "W", "right": "=470.4N", "operator": "=" }
+                ],
+                "isShowingEquationNumbers": false,
+                "version": "1.2.0"
+              },
+              "id": "59FhcKCN7H8VBnzYNGc6q"
+            },
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "bulletList",
+                      "content": [
+                        {
+                          "type": "listItem",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": { "textAlign": "left" },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎nurse‏‏‎‏‏‎‏‏‎ ‎‎‎exerts‏‏‎‏‏‎‏‏‎ ‎‎‎a‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                                },
+                                {
+                                  "type": "text",
+                                  "marks": [{ "type": "bold" }],
+                                  "text": "force‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                                },
+                                {
+                                  "type": "inlineMath",
+                                  "attrs": { "mathType": "asciimath" },
+                                  "content": [{ "type": "text", "text": "F" }]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "‏‏‎‏‏‎‏‏‎ ‎‎‎at‏‏‎‏‏‎‏‏‎ ‎‎‎a‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                                },
+                                {
+                                  "type": "text",
+                                  "marks": [{ "type": "bold" }],
+                                  "text": "downward‏‏‎‏‏‎‏‏‎ ‎‎‎angle"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                                },
+                                {
+                                  "type": "inlineMath",
+                                  "attrs": { "mathType": "asciimath" },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "29‏‏‎‏‏‎‏‏‎ ‎‎‎^o"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "‏‏‎‏‏‎‏‏‎ ‎‎‎below‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎horizontal."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "heading",
+                      "attrs": { "textAlign": "left", "level": 3 },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Step‏‏‎‏‏‎‏‏‎ ‎‎‎2:‏‏‎‏‏‎‏‏‎ ‎‎‎Break‏‏‎‏‏‎‏‏‎ ‎‎‎down‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎forces"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎applied‏‏‎‏‏‎‏‏‎ ‎‎‎force‏‏‎‏‏‎‏‏‎ ‎‎‎F‏‏‎‏‏‎‏‏‎ ‎‎‎can‏‏‎‏‏‎‏‏‎ ‎‎‎be‏‏‎‏‏‎‏‏‎ ‎‎‎broken‏‏‎‏‏‎‏‏‎ ‎‎‎down‏‏‎‏‏‎‏‏‎ ‎‎‎into‏‏‎‏‏‎‏‏‎ ‎‎‎two‏‏‎‏‏‎‏‏‎ ‎‎‎components:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "orderedList",
+                      "attrs": { "start": 1, "type": "1" },
+                      "content": [
+                        {
+                          "type": "listItem",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": { "textAlign": "left" },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "marks": [{ "type": "bold" }],
+                                  "text": "Horizontal‏‏‎‏‏‎‏‏‎ ‎‎‎component:‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                                },
+                                {
+                                  "type": "inlineMath",
+                                  "attrs": { "mathType": "asciimath" },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "F_x​=Fcos(29^o)"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "listItem",
+                          "content": [
+                            {
+                              "type": "paragraph",
+                              "attrs": { "textAlign": "left" },
+                              "content": [
+                                {
+                                  "type": "text",
+                                  "marks": [{ "type": "bold" }],
+                                  "text": "Vertical‏‏‎‏‏‎‏‏‎ ‎‎‎component:‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                                },
+                                {
+                                  "type": "inlineMath",
+                                  "attrs": { "mathType": "asciimath" },
+                                  "content": [
+                                    {
+                                      "type": "text",
+                                      "text": "F_y​=Fsin(29^o)"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "mjn9hAn1w6Vzzc9Xx_7uX"
+            },
+            {
+              "type": "EXPLANATION",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎vertical‏‏‎‏‏‎‏‏‎ ‎‎‎component‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                        },
+                        {
+                          "type": "inlineMath",
+                          "attrs": { "mathType": "asciimath" },
+                          "content": [{ "type": "text", "text": "F_y" }]
+                        },
+                        {
+                          "type": "text",
+                          "text": "​‏‏‎‏‏‎‏‏‎ ‎‎‎increases‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎normal‏‏‎‏‏‎‏‏‎ ‎‎‎force‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                        },
+                        {
+                          "type": "inlineMath",
+                          "attrs": { "mathType": "asciimath" },
+                          "content": [{ "type": "text", "text": "N" }]
+                        },
+                        {
+                          "type": "text",
+                          "text": "‏‏‎‏‏‎‏‏‎ ‎‎‎between‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎cart‏‏‎‏‏‎‏‏‎ ‎‎‎and‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎floor‏‏‎‏‏‎‏‏‎ ‎‎‎because‏‏‎‏‏‎‏‏‎ ‎‎‎it's‏‏‎‏‏‎‏‏‎ ‎‎‎pushing‏‏‎‏‏‎‏‏‎ ‎‎‎down‏‏‎‏‏‎‏‏‎ ‎‎‎on‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎cart."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "-FptcdVt7ejFHLixJ2N53"
+            },
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    { "type": "paragraph", "attrs": { "textAlign": "left" } }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "KF2YKgPxYeuaG-fI4HNJj"
+            }
+          ],
+          "isValid": true
+        },
+        {
+          "id": "step-3L9kT8KPyhd8f66DSzMBF",
+          "blocks": [
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "heading",
+                      "attrs": { "textAlign": "left", "level": 3 },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Step‏‏‎‏‏‎‏‏‎ ‎‎‎3:‏‏‎‏‏‎‏‏‎ ‎‎‎Find‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎normal‏‏‎‏‏‎‏‏‎ ‎‎‎force"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎normal‏‏‎‏‏‎‏‏‎ ‎‎‎force‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                        },
+                        {
+                          "type": "inlineMath",
+                          "attrs": { "mathType": "asciimath" },
+                          "content": [{ "type": "text", "text": "N" }]
+                        },
+                        {
+                          "type": "text",
+                          "text": "‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎upward‏‏‎‏‏‎‏‏‎ ‎‎‎force‏‏‎‏‏‎‏‏‎ ‎‎‎exerted‏‏‎‏‏‎‏‏‎ ‎‎‎by‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎floor‏‏‎‏‏‎‏‏‎ ‎‎‎on‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎cart,‏‏‎‏‏‎‏‏‎ ‎‎‎and‏‏‎‏‏‎‏‏‎ ‎‎‎it‏‏‎‏‏‎‏‏‎ ‎‎‎balances‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎weight‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎cart‏‏‎‏‏‎‏‏‎ ‎‎‎minus‏‏‎‏‏‎‏‏‎ ‎‎‎any‏‏‎‏‏‎‏‏‎ ‎‎‎vertical‏‏‎‏‏‎‏‏‎ ‎‎‎forces‏‏‎‏‏‎‏‏‎ ‎‎‎from‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎nurse.‏‏‎‏‏‎‏‏‎ ‎‎‎The‏‏‎‏‏‎‏‏‎ ‎‎‎normal‏‏‎‏‏‎‏‏‎ ‎‎‎force‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎given‏‏‎‏‏‎‏‏‎ ‎‎‎by:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "inlineMath",
+                          "attrs": { "mathType": "asciimath" },
+                          "content": [
+                            { "type": "text", "text": "N=W+Fy​=W+Fsin(29^o)" }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "-zI0PMcEV4PdcmvTUWUVQ"
+            },
+            {
+              "type": "EXPLANATION",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "But‏‏‎‏‏‎‏‏‎ ‎‎‎since‏‏‎‏‏‎‏‏‎ ‎‎‎F‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎unknown,‏‏‎‏‏‎‏‏‎ ‎‎‎proceed‏‏‎‏‏‎‏‏‎ ‎‎‎by‏‏‎‏‏‎‏‏‎ ‎‎‎using‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎fact‏‏‎‏‏‎‏‏‎ ‎‎‎that‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎horizontal‏‏‎‏‏‎‏‏‎ ‎‎‎forces‏‏‎‏‏‎‏‏‎ ‎‎‎are‏‏‎‏‏‎‏‏‎ ‎‎‎balanced."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "KgJWiDwPQPtRPJlDQKexa"
+            },
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "heading",
+                      "attrs": { "textAlign": "left", "level": 3 },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Step‏‏‎‏‏‎‏‏‎ ‎‎‎4:‏‏‎‏‏‎‏‏‎ ‎‎‎Balance‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎horizontal‏‏‎‏‏‎‏‏‎ ‎‎‎forces"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Since‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎cart‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎moving‏‏‎‏‏‎‏‏‎ ‎‎‎at‏‏‎‏‏‎‏‏‎ ‎‎‎a‏‏‎‏‏‎‏‏‎ ‎‎‎constant‏‏‎‏‏‎‏‏‎ ‎‎‎velocity,‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎horizontal‏‏‎‏‏‎‏‏‎ ‎‎‎component‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎nurse's‏‏‎‏‏‎‏‏‎ ‎‎‎force‏‏‎‏‏‎‏‏‎ ‎‎‎Fx​‏‏‎‏‏‎‏‏‎ ‎‎‎must‏‏‎‏‏‎‏‏‎ ‎‎‎balance‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎force‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎friction:"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "zTXySUPVaZjab9XFwtkrA"
+            },
+            {
+              "type": "EQUATION_RENDERER",
+              "block": {
+                "lines": [
+                  { "left": "Fx​", "right": "Fcos(29^o)", "operator": "=" },
+                  {
+                    "left": "text(friction‏‏‎‏‏‎‏‏‎ ‎‎‎force)",
+                    "right": "69N",
+                    "operator": "="
+                  }
+                ],
+                "isShowingEquationNumbers": false,
+                "version": "1.2.0"
+              },
+              "id": "eqD2wDbjnh6IrFf6aGP5z"
+            },
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "So:" }]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "9Cj1UpgAvN8Q2qNXbqgU5"
+            },
+            {
+              "type": "EQUATION_RENDERER",
+              "block": {
+                "lines": [
+                  { "left": "F", "right": "​69/cos(29^o)", "operator": "=" }
+                ],
+                "isShowingEquationNumbers": false,
+                "version": "1.2.0"
+              },
+              "id": "1faCYoFTmmGViAMrBHHFx"
+            },
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Calculating‏‏‎‏‏‎‏‏‎ ‎‎‎this:"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "hoE6vZ_HvOmOKpO5cMbkG"
+            },
+            {
+              "type": "EQUATION_RENDERER",
+              "block": {
+                "lines": [
+                  { "left": "F", "right": "69/0.8746", "operator": "=" },
+                  { "left": "F", "right": "78.89N", "operator": "\\approx" }
+                ],
+                "isShowingEquationNumbers": false,
+                "version": "1.2.0"
+              },
+              "id": "5DuprvmMDUr6DutCrX4gJ"
+            },
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    { "type": "paragraph", "attrs": { "textAlign": "left" } }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "NidXwRqvjPhknHV6wdX4q"
+            }
+          ],
+          "isValid": true
+        },
+        {
+          "id": "step-zR88jjPGPqjbFLdVegE5b",
+          "blocks": [
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "heading",
+                      "attrs": { "textAlign": "left", "level": 3 },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Step‏‏‎‏‏‎‏‏‎ ‎‎‎5:‏‏‎‏‏‎‏‏‎ ‎‎‎Find‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎normal‏‏‎‏‏‎‏‏‎ ‎‎‎force"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Now‏‏‎‏‏‎‏‏‎ ‎‎‎calculate‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎normal‏‏‎‏‏‎‏‏‎ ‎‎‎force‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                        },
+                        {
+                          "type": "inlineMath",
+                          "attrs": { "mathType": "asciimath" },
+                          "content": [{ "type": "text", "text": "N" }]
+                        },
+                        { "type": "text", "text": ":" }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "c2vNdLy37xCr0uRYdJWlQ"
+            },
+            {
+              "type": "EQUATION_RENDERER",
+              "block": {
+                "lines": [
+                  { "left": "N", "right": "W+Fsin(29^o)", "operator": "=" },
+                  {
+                    "left": "N",
+                    "right": "470.4+78.89⋅sin(29^o)",
+                    "operator": "="
+                  },
+                  {
+                    "left": "N",
+                    "right": "470.4+78.89⋅0.4848",
+                    "operator": "="
+                  },
+                  {
+                    "left": "N",
+                    "right": "470.4+38.22",
+                    "operator": "\\approx"
+                  },
+                  { "left": "N", "right": "508.62N", "operator": "\\approx" }
+                ],
+                "isShowingEquationNumbers": false,
+                "version": "1.2.0"
+              },
+              "id": "BnZvBQUZbeXAmHJ00tmWq"
+            },
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "heading",
+                      "attrs": { "textAlign": "left", "level": 3 },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Step‏‏‎‏‏‎‏‏‎ ‎‎‎6:‏‏‎‏‏‎‏‏‎ ‎‎‎Calculate‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎coefficient‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎friction"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎coefficient‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎friction‏‏‎‏‏‎‏‏‎ ‎‎‎μ‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎given‏‏‎‏‏‎‏‏‎ ‎‎‎by:"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "TaZOPG46mVoeGZB9ER-mf"
+            },
+            {
+              "type": "EQUATION_RENDERER",
+              "block": {
+                "lines": [
+                  {
+                    "left": "μ",
+                    "right": "text(‏‏‎‏‏‎‏‏‎ ‎‎‎friction‏‏‎‏‏‎‏‏‎ ‎‎‎force)/‏‏‎‏‏‎‏‏‎ ‎‎‎text(normal‏‏‎‏‏‎‏‏‎ ‎‎‎force)",
+                    "operator": "="
+                  },
+                  { "left": "μ", "right": "69/508.62", "operator": "\\approx" },
+                  { "left": "μ", "right": "0.136", "operator": "\\approx" }
+                ],
+                "isShowingEquationNumbers": false,
+                "version": "1.2.0"
+              },
+              "id": "hW5J_PpYgutb9dZc7FRQZ"
+            },
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [{ "type": "text", "text": "‏‏‎‏‏‎‏‏‎ ‎‎‎" }]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "rvFayUqQFuSkiGWF_GmYa"
+            },
+            {
+              "type": "EXPLANATION",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "attrs": { "textAlign": "left" },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎coefficient‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎friction‏‏‎‏‏‎‏‏‎ ‎‎‎between‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎cart‏‏‎‏‏‎‏‏‎ ‎‎‎and‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎floor‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎approximately‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                        },
+                        {
+                          "type": "inlineMath",
+                          "attrs": { "mathType": "asciimath" },
+                          "content": [{ "type": "text", "text": "μ=0.136." }]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "KWu3NNjdwzJgCpHGEq7Rb"
+            },
+            {
+              "type": "TEXT",
+              "block": {
+                "editorContentState": {
+                  "type": "doc",
+                  "content": [
+                    { "type": "paragraph", "attrs": { "textAlign": "left" } }
+                  ]
+                },
+                "validationError": null,
+                "version": "2.0.0"
+              },
+              "id": "5WAbKswZUOtsc--VIixV5"
+            }
+          ],
+          "isValid": true
+        }
+      ],
+      "isValid": true
+    },
+    "finalAnswer": {
+      "blocks": [
+        {
+          "type": "TEXT",
+          "block": {
+            "editorContentState": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": { "textAlign": "left" },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The‏‏‎‏‏‎‏‏‎ ‎‎‎coefficient‏‏‎‏‏‎‏‏‎ ‎‎‎of‏‏‎‏‏‎‏‏‎ ‎‎‎friction‏‏‎‏‏‎‏‏‎ ‎‎‎between‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎cart‏‏‎‏‏‎‏‏‎ ‎‎‎and‏‏‎‏‏‎‏‏‎ ‎‎‎the‏‏‎‏‏‎‏‏‎ ‎‎‎floor‏‏‎‏‏‎‏‏‎ ‎‎‎is‏‏‎‏‏‎‏‏‎ ‎‎‎approximately‏‏‎‏‏‎‏‏‎ ‎‎‎"
+                    },
+                    {
+                      "type": "inlineMath",
+                      "attrs": { "mathType": "asciimath" },
+                      "content": [{ "type": "text", "text": "μ=0.136." }]
+                    }
+                  ]
+                }
+              ]
+            },
+            "validationError": null,
+            "version": "2.0.0"
+          },
+          "id": "B5NwZzYSciQqc1YV4OUPo"
+        }
+      ],
+      "isValid": true
+    },
+    "version": "2.0.0"
+  }
+}

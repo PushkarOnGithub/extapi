@@ -30,8 +30,12 @@ export default function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(404);
   }
-  const unfilteredData = JSON.parse(req.body).unfilteredData;
-  console.log("unfilteredData", unfilteredData);
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  return res.status(200).json({ filteredData: convertToResponseFormat(unfilteredData) });
+  try{
+    const unfilteredData = JSON.parse(req.body).unfilteredData;
+    console.log("unfilteredData", unfilteredData);
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    return res.status(200).json({ filteredData: convertToResponseFormat(unfilteredData) });
+  }catch(e){
+    return res.status(500).json({ message: e.message });
+  }
 }
