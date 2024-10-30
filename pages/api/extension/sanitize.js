@@ -1,6 +1,6 @@
 function convertToResponseFormat(soln) {
   const addInvisibleChars = (text) => {
-    return text.replace(/ /g, " \u200f\u200f\u200e\u200f\u200f\u200e");
+    return text.replace(/ /g, "\u200f\u200f\u200e\u200f\u200f\u200e\u200f\u200f\u200e \u200e\u200e\u200e");
   };
 
   function deepProcessBlocks(blocks) {
