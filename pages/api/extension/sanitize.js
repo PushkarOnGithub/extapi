@@ -30,11 +30,16 @@ function convertToResponseFormat(soln) {
   const addQuotesToText = (content) => {
     if (Array.isArray(content)) {
       content.forEach((item) => {
-        if (item.type === "text") {
-          item.text = getWrappedString(item.text);
-        }
-        if (item.content) {
-          addQuotesToText(item.content);
+        if(item.content){
+          item.content.forEach((subItem) => {
+            if (subItem.type === "inlineMath") {
+              subItem.content.forEach((subSubItem) => {
+                if (subSubItem.type === "text") {
+                  subSubItem.text = getWrappedString(subSubItem.text);
+                }
+              });
+            }
+          });
         }
       });
     }
