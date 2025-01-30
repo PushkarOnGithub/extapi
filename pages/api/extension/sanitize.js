@@ -3,7 +3,7 @@ export default function handler(req, res) {
     return res.status(404);
   }
   try {
-    const unfilteredData = JSON.parse(req.body).unfilteredData;  // for production
+    const unfilteredData = JSON.parse(req.body).unfilteredData; // for production
     // const unfilteredData = req.body; // for development
     console.log("unfilteredData", unfilteredData);
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -26,29 +26,42 @@ function getWrappedString(str) {
 }
 // console.log(getRandomQuotationString());
 
-function convertToResponseFormat(soln) {
-  const addQuotesToText = (content) => {
-    if (Array.isArray(content)) {
-      content.forEach((item) => {
-        if(item.content){
-          item.content.forEach((subItem) => {
-            if (subItem.type === "inlineMath") {
-              subItem.content.forEach((subSubItem) => {
-                if (subSubItem.type === "text") {
-                  subSubItem.text = getWrappedString(subSubItem.text);
-                }
+function addQuotesToText(content) {
+  content.forEach((item) => {
+    if (item.type === "orderedList") {
+      item?.content?.forEach((subItem) => {
+        subItem?.content?.forEach((subSubItem) => {
+          subSubItem?.content?.forEach((subSubSubItem) => {
+            if (subSubSubItem.type === "inlineMath") {
+              subSubSubItem.content.forEach((subSubSubSubItem) => {
+                subSubSubSubItem.text = getWrappedString(subSubSubSubItem.text);
               });
+            }
+          });
+        });
+      });
+    } else {
+      item?.content?.forEach((subItem) => {
+        if (subItem.type === "inlineMath") {
+          subItem?.content?.forEach((subSubItem) => {
+            if (subSubItem.type === "text") {
+              subSubItem.text = getWrappedString(subSubItem.text);
             }
           });
         }
       });
     }
-  };
+  });
+}
 
+function convertToResponseFormat(soln) {
   // Traverse and modify steps
   soln.answerBody.stepByStep.steps.forEach((step) => {
     step.blocks.forEach((block) => {
-      if (block.type === "TEXT" && block.block.editorContentState) {
+      if (
+        ["TEXT", "EXPLANATION"].includes(block.type) &&
+        block.block.editorContentState
+      ) {
         addQuotesToText(block.block.editorContentState.content);
       }
       if (block.type === "EQUATION_RENDERER" && block.block.lines) {
@@ -62,7 +75,10 @@ function convertToResponseFormat(soln) {
 
   // Traverse and modify finalAnswer
   soln.answerBody.finalAnswer.blocks.forEach((block) => {
-    if (block.type === "TEXT" && block.block.editorContentState) {
+    if (
+      ["TEXT", "EXPLANATION"].includes(block.type) &&
+      block.block.editorContentState
+    ) {
       addQuotesToText(block.block.editorContentState.content);
     }
     if (block.type === "EQUATION_RENDERER" && block.block.lines) {
